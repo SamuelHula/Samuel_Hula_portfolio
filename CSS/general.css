@@ -240,6 +240,10 @@ section{
    color: var(--text-light);
    transform: translateY(-5px);
 }
+.footer-contact a{
+   color: var(--text-gray);
+   text-decoration: none;
+}
 .footer-bottom {
    border-top: 1px solid rgba(255, 255, 255, 0.05);
    padding-top: 30px;
