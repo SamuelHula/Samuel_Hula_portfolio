@@ -30,6 +30,9 @@ Professional portfolio website showcasing Samuel Hula's development skills, proj
   <img src="https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Fonts">
 </div>
 
+## Contact
+**Samuel Hula:** <a href="mailto:samko.hula@gmail.com">samko.hula@gmail.com</a> 
+
 ## 🎨 Design System
 
 ```css
@@ -41,6 +44,4 @@ Professional portfolio website showcasing Samuel Hula's development skills, proj
   --text-light: #f1f1f1;
   --text-gray: #a0a0a0;
 }
-
-
-
+´´´css
