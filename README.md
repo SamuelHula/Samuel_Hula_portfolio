@@ -10,22 +10,7 @@
 
 Professional portfolio website showcasing Samuel Hula's development skills, projects, and services. Built with modern web technologies and featuring a sleek, dark theme with vibrant accent colors.
 
-```html
-<div class="card">
-  <div class="header">
-    <h3>Portfolio Highlights</h3>
-  </div>
-  <div class="content">
-    <ul>
-      <li>✨ Modern dark UI with red accent elements</li>
-      <li>🚀 Fully responsive design</li>
-      <li>🎯 Project showcase with detailed case studies</li>
-      <li>📱 Mobile-first approach</li>
-      <li>⚡ Optimized performance</li>
-    </ul>
-  </div>
 
-</div>
 ## 🚀 Features
 
 | Feature               | Description                                                                 |
@@ -57,3 +42,4 @@ Professional portfolio website showcasing Samuel Hula's development skills, proj
   --text-light: #f1f1f1;
   --text-gray: #a0a0a0;
 }
+
