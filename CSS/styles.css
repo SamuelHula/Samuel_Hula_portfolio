@@ -91,6 +91,9 @@
 .about_me .wrapper figure.image{
    width: 40%;
 }
+.about_me .wrapper figure.image img{
+   width: 100%;
+}
 @media screen and (max-width: 500px){
    .about_me .wrapper aside.text p{
       font-size: 0.8rem;
