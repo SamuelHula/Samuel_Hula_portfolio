@@ -52,6 +52,23 @@
    color: var(--text-light);
    transform: translateY(-5px);
 }
+@media screen and (max-width: 649px){
+   #landing_page{
+      padding: 5%;
+   }
+   #landing_page h1{
+      font-size: 2.5rem;
+   }
+   .hero-subtitle{
+      font-size: 1.2rem;
+   }
+   .social-icons a{
+      width: 35px;
+      height: 35px;
+
+      font-size: 1rem;
+   }
+}
 /*About me section*/
 #about_me{
    background-color: var(--card-bg);
@@ -73,6 +90,11 @@
 }
 .about_me .wrapper figure.image{
    width: 40%;
+}
+@media screen and (max-width: 500px){
+   .about_me .wrapper aside.text p{
+      font-size: 0.8rem;
+   }
 }
 /*Skills section*/
 .skills-grid {
@@ -285,6 +307,11 @@
    }
    .skills-grid {
       grid-template-columns: 1fr;
+   }
+}
+@media screen and (max-width: 405px){
+   .contact-btn{
+      font-size: .8rem;
    }
 }
 /* Contact Section Styles */
