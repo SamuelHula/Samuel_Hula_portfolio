@@ -94,6 +94,40 @@
 .about_me .wrapper figure.image img{
    width: 100%;
 }
+/* Add to the About Me section styles */
+.cv-btn {
+   display: inline-flex;
+   align-items: center;
+   background: transparent;
+   color: var(--accent-red);
+   border: 2px solid var(--accent-red);
+   padding: 12px 25px;
+   font-family: 'Oswald', sans-serif;
+   font-size: 1rem;
+   text-decoration: none;
+   text-transform: uppercase;
+   cursor: pointer;
+   transition: var(--transition);
+   margin-top: 25px;
+}
+.cv-btn i {
+   margin-left: 10px;
+   transition: transform 0.3s ease;
+}
+.cv-btn:hover {
+   background: var(--accent-red);
+   color: var(--text-light);
+}
+.cv-btn:hover i {
+   transform: translateY(3px);
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+   .cv-btn {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+   }
+}
 @media screen and (max-width: 500px){
    .about_me .wrapper aside.text p{
       font-size: 0.8rem;
