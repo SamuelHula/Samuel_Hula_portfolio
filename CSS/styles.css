@@ -175,6 +175,7 @@
 /* Portfolio Section */
 #portfolio {
    background-color: var(--card-bg);
+   padding: 5%;
 }
 .portfolio-container {
    display: flex;
@@ -306,8 +307,6 @@
    #header {
       padding: 0 10%;
    }
-}
-@media (max-width: 992px) {
    .project, .project.reverse {
       flex-direction: column;
    }
@@ -344,6 +343,10 @@
    }
    .skills-grid {
       grid-template-columns: 1fr;
+   }
+   .project ul li p,
+   .skills-used span{
+      font-size: .8rem;
    }
 }
 @media screen and (max-width: 405px){
