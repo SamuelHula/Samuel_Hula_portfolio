@@ -284,6 +284,9 @@ section{
    }
 }
 @media (max-width: 768px) {
+   .nav_bar{
+      display: none;
+   }
    .footer-grid {
       grid-template-columns: 1fr;
    }
