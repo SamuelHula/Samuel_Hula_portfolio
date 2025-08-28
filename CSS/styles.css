@@ -72,6 +72,7 @@
 /*Marqee section*/
 #marqee{
    background-color: var(--accent-red);
+   padding: 5%;
 }
 #marqee .wrapper{
    width: 90%;
